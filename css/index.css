@@ -1102,7 +1102,7 @@ button:hover .index {
     color: whitesmoke;
 }
 
-.blog-header {
+.repo-header {
     height: auto;
     width: 100%;
     text-align: center;
@@ -1117,7 +1117,7 @@ button:hover .index {
     font-weight: 900;
 }
 
-#blog {
+#repo {
     background: #101010;
     display: none;
     color: whitesmoke;
@@ -1125,14 +1125,14 @@ button:hover .index {
     height: auto;
 }
 
-.blog-content {
+.repo-content {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 
-.blogs {
+.repos {
     height: 420px;
     width: 40%;
     margin: 20px;
@@ -1141,7 +1141,7 @@ button:hover .index {
     overflow: hidden;
 }
 
-.blogs .img {
+.repos .img {
     height: 80%;
     width: 100%;
     overflow: hidden;
@@ -1149,7 +1149,7 @@ button:hover .index {
     position: relative;
 }
 
-.blog-date {
+.repo-date {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -1165,13 +1165,13 @@ button:hover .index {
     height: auto;
 }
 
-.blogs .img img {
+.repos .img img {
     height: 100%;
     width: 100%;
     transition: all .65s ease;
 }
 
-.blog-text {
+.repo-text {
     height: 80%;
     width: 100%;
     text-align: center;
@@ -1182,7 +1182,7 @@ button:hover .index {
     transition: all .5s ease;
 }
 
-.blog-text h3 {
+.repo-text h3 {
     font-size: 28px;
     font-weight: 500;
     height: 20%;
@@ -1190,7 +1190,7 @@ button:hover .index {
     letter-spacing: 1px;
 }
 
-.blog-text p {
+.repo-text p {
     font-size: 18px;
     opacity: .9;
     font-weight: 400;
@@ -1199,15 +1199,15 @@ button:hover .index {
     letter-spacing: 1px;
 }
 
-.blogs:hover .img {
+.repos:hover .img {
     transform: translateY(-70%);
 }
 
-.blogs:hover .blog-text {
+.repos:hover .repo-text {
     transform: translateY(-70%);
 }
 
-.blogs a {
+.repos a {
     text-decoration: none;
     color: whitesmoke;
 }
@@ -1847,7 +1847,7 @@ For devices with smaller width like mobile phone
         display: none;
     }
 
-    .blogs {
+    .repos {
         height: auto;
         width: 90%;
         margin: 10px;
@@ -1856,7 +1856,7 @@ For devices with smaller width like mobile phone
         position: relative;
     }
 
-    .blogs .img {
+    .repos .img {
         height: 80%;
         width: 100%;
         overflow: hidden;
@@ -1864,7 +1864,7 @@ For devices with smaller width like mobile phone
         position: relative;
     }
 
-    .blog-date {
+    .repo-date {
         position: absolute;
         left: 0;
         bottom: 0;
@@ -1878,13 +1878,13 @@ For devices with smaller width like mobile phone
         height: auto;
     }
 
-    .blogs .img img {
+    .repos .img img {
         height: 100%;
         width: 100%;
         transition: all .65s ease;
     }
 
-    .blog-text {
+    .repo-text {
         height: auto;
         width: 100%;
         text-align: center;
@@ -1895,7 +1895,7 @@ For devices with smaller width like mobile phone
         transition: all .5s ease;
     }
 
-    .blog-text h3 {
+    .repo-text h3 {
         font-size: 24px;
         font-weight: 200;
         height: 15%;
@@ -1903,7 +1903,7 @@ For devices with smaller width like mobile phone
         letter-spacing: 1px;
     }
 
-    .blog-text p {
+    .repo-text p {
         font-size: 15px;
         opacity: .9;
         font-weight: 200;
@@ -1912,11 +1912,11 @@ For devices with smaller width like mobile phone
         letter-spacing: 1px;
     }
 
-    .blogs:hover .img {
+    .repos:hover .img {
         transform: translateY(0%);
     }
 
-    .blogs:hover .blog-text {
+    .repos:hover .repo-text {
         transform: translateY(0%);
     }
 
@@ -2390,7 +2390,7 @@ for tabs and large phones
         transition: all .4s ease;
     }
 
-    .blogs {
+    .repos {
         height: auto;
         width: 75%;
         margin: 10px;
@@ -2399,7 +2399,7 @@ for tabs and large phones
         position: relative;
     }
 
-    .blogs .img {
+    .repos .img {
         height: 60%;
         width: 100%;
         overflow: hidden;
@@ -2407,7 +2407,7 @@ for tabs and large phones
         position: relative;
     }
 
-    .blog-date {
+    .repo-date {
         position: absolute;
         left: 0;
         bottom: 0;
@@ -2421,13 +2421,13 @@ for tabs and large phones
         height: auto;
     }
 
-    .blogs .img img {
+    .repos .img img {
         height: 100%;
         width: 100%;
         transition: all .65s ease;
     }
 
-    .blog-text {
+    .repo-text {
         height: auto;
         width: 100%;
         text-align: center;
@@ -2439,7 +2439,7 @@ for tabs and large phones
         transition: all .5s ease;
     }
 
-    .blog-text h3 {
+    .repo-text h3 {
         font-size: 28px;
         font-weight: 200;
         height: 15%;
@@ -2447,7 +2447,7 @@ for tabs and large phones
         letter-spacing: 1px;
     }
 
-    .blog-text p {
+    .repo-text p {
         font-size: 17px;
         opacity: .9;
         font-weight: 200;
@@ -2456,11 +2456,11 @@ for tabs and large phones
         letter-spacing: 1px;
     }
 
-    .blogs:hover .img {
+    .repos:hover .img {
         transform: translateY(0%);
     }
 
-    .blogs:hover .blog-text {
+    .repos:hover .repo-text {
         transform: translateY(0%);
     }
 
@@ -2722,7 +2722,7 @@ for tabs and large phones
         opacity: .8;
     }
 
-    .blogs {
+    .repos {
         height: 420px;
         width: 30%;
         margin: auto;
@@ -2732,7 +2732,7 @@ for tabs and large phones
         overflow: hidden;
     }
 
-    .blogs .img {
+    .repos .img {
         height: 80%;
         width: 100%;
         overflow: hidden;
@@ -2740,7 +2740,7 @@ for tabs and large phones
         position: relative;
     }
 
-    .blog-date {
+    .repo-date {
         position: absolute;
         left: 0;
         bottom: 0;
@@ -2754,13 +2754,13 @@ for tabs and large phones
         height: auto;
     }
 
-    .blogs .img img {
+    .repos .img img {
         height: 100%;
         width: 100%;
         transition: all .65s ease;
     }
 
-    .blog-text {
+    .repo-text {
         height: 80%;
         width: 100%;
         text-align: center;
@@ -2771,7 +2771,7 @@ for tabs and large phones
         transition: all .5s ease;
     }
 
-    .blog-text h3 {
+    .repo-text h3 {
         font-size: 28px;
         font-weight: 500;
         height: 20%;
@@ -2779,7 +2779,7 @@ for tabs and large phones
         letter-spacing: 1px;
     }
 
-    .blog-text p {
+    .repo-text p {
         font-size: 18px;
         opacity: .9;
         font-weight: 400;
@@ -2788,11 +2788,11 @@ for tabs and large phones
         letter-spacing: 1px;
     }
 
-    .blogs:hover .img {
+    .repos:hover .img {
         transform: translateY(-70%);
     }
 
-    .blogs:hover .blog-text {
+    .repos:hover .repo-text {
         transform: translateY(-70%);
     }
 

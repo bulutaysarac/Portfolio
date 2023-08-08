@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Bulutay Saraç's Personal Website" />
     <title>Bulutay Saraç's Personal Website</title>
-    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="icon" type="image/png" href="images/logo.png">
     <link rel="stylesheet" href="css/index.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
 </head>
@@ -38,7 +38,7 @@
             <div class="navigation-links">
                 <a href="#" data-text="HOME" id="home-link">HOME</a>
                 <a href="#" data-text="ABOUT" id="about-link">ABOUT</a>
-                <a href="#" data-text="REPOSITORIES" id="blog-link">REPOSITORIES</a>
+                <a href="#" data-text="REPOSITORIES" id="repo-link">REPOSITORIES</a>
                 <a href="#" data-text="EXPERIENCE" id="portfolio-link">EXPERIENCE</a>
                 <a href="#" data-text="CONTACT" id="contact-link">CONTACT</a>
             </div>
@@ -67,13 +67,19 @@
             <!--Social Media Links end-->
             <div class="header-content">
                 <div class="header-content-box">
-                    <div class="firstline"><span class="color">Bulutay </span>Saraç</div>
+                    <div class="firstline">
+                        <span class="color">Bulutay </span>Saraç
+                    </div>
                     <div class="secondline">
                         I'm a<span class="txt-rotate color" data-period="1200" data-rotate='[ " Developer.", " Freelancer.", " Gamer." ]'></span><span class="slash">|</span>
                     </div>
                     <div class="contact">
-                        <a href="Mailto:bulutaysarac@gmail.com"><img src="images/mail.png" alt="email-pic" class="contactpic"></a>
-                        <a href="Tel:+905312290020"><img src="images/call.png" alt="phone-pic" class="contactpic"></a>
+                        <a href="Mailto:bulutaysarac@gmail.com">
+                            <img src="images/mail.png" alt="email-pic" class="contactpic">
+                        </a>
+                        <a href="Tel:+905312290020">
+                            <img src="images/call.png" alt="phone-pic" class="contactpic">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -86,23 +92,23 @@
             <!--about content-->
             <div id="about-content">
                 <div class="about-header">
-                    About <span class="color">Me</span>
-                    <span class="header-caption">Get to Know <span class="color"> me.</span></span>
+                    About <span class="color">Me</span><span class="header-caption">Get to Know <span class="color"> me.</span></span>
                 </div>
                 <div class="about-main">
                     <div class="about-first-paragraph wow">
                         <!--about description-->
-                        <span class="about-first-line">
-                            I'm creative <span class="color">Full Stack Developer</span> based in İstanbul, Türkiye</span>
+                        <span class="about-first-line">I'm creative <span class="color">Full Stack Developer</span> based in İstanbul, Türkiye</span>
                         <br>
                         <span class="about-second-line"> With 7 years of technical education experience as a student, I have acquired the skills and knowledge necessary to step into industry. I enjoy every step while working.</span>
                         <div class="cv">
-                            <a href="docs/Bulutay_Sarac_CV.pdf" download="Bulutay_Sarac_CV"><button>Download <span class="colors">CV</span></button></a>
+                            <a href="docs/Bulutay_Sarac_CV.pdf" download="Bulutay_Sarac_CV">
+                                <button>Download <span class="colors">CV</span></button>
+                            </a>
                         </div>
                     </div>
                     <!--about picture-->
                     <div class="about-img">
-                        <img src="images/bulutay_sarac.JPG" alt="Your Image">
+                        <img src="images/bulutay_sarac.JPG" alt="profile-photo">
                     </div>
                 </div>
             </div>
@@ -283,106 +289,107 @@
                 </div>
             </div>
             <!--services content end-->
-            <!--copyright-section You Can Remove After Downloading-->
+            <!--footer-section-->
             <div class="footer">
                 <div class="footer-text">
                     <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Bulutay Saraç
                 </div>
             </div>
-            <!--copyright-section-->
+            <!--footer-section-->
         </div>
         <!--about end-->
-        <!--blog-->
-        <div id="blog">
-            <div class="blog-header"> Repositories</span>
+        <!--repo-->
+        <div id="repo">
+            <div class="repo-header"> Repositories</span>
                 <span class="header-caption"> My Latest <span class="color"> repositories from GitHub.</span></span>
             </div>
-            <div class="blog-content">
-                <div class="blogs">
+            <div class="repo-content">
+                <div class="repos">
                     <a href="https://github.com/bulutaysarac/Bulutay.Microservices" target="_blank">
                         <div class="img">
                             <img src="images/MicroservicesAppThumb.png" alt="repository">
-                            <div class="blog-date">15 May 2023</div>
+                            <div class="repo-date">15 May 2023</div>
                         </div>
-                        <div class="blog-text">
+                        <div class="repo-text">
                             <h3>Microservices Project</h3>
                             <p>I created a .NET Core microservices web app to teach microservice architecture using MongoDB, MSSQL, PostgreSQL, and Redis databases. Managed with Docker for easy deployment, the project highlights my technical expertise, hands-on learning, and microservices innovation.</p>
                         </div>
                     </a>
                 </div>
-                <div class="blogs">
+                <div class="repos">
                     <a href="https://github.com/bulutaysarac/Bulutay.QuestionBankApp" target="_blank">
                         <div class="img">
                             <img src="images/QuestionBankAppThumb.png" alt="repository">
-                            <div class="blog-date">20 Apr 2023</div>
+                            <div class="repo-date">20 Apr 2023</div>
                         </div>
-                        <div class="blog-text">
+                        <div class="repo-text">
                             <h3>QuestionBank App</h3>
                             <p>Developed a dynamic exam preparation platform with .NET Core, JavaScript, MSSQL, and WebAPI, seamlessly providing users with curated questions, a responsive frontend, robust backend, efficient data management, and my first-time utilization of WebAPI.</p>
                         </div>
                     </a>
                 </div>
-                <div class="blogs">
+                <div class="repos">
                     <a href="https://github.com/bulutaysarac/Bulutay.JwtApp" target="_blank">
                         <div class="img">
                             <img src="images/JwtAppThumb.png" alt="repository">
-                            <div class="blog-date">16 April 2023</div>
+                            <div class="repo-date">16 April 2023</div>
                         </div>
-                        <div class="blog-text">
+                        <div class="repo-text">
                             <h3>JWT App</h3>
                             <p>I built a learning project on ASP.NET Core to create a basic login/logout web app using JSON Web Tokens (JWT) for authentication, deepening my understanding of JWT integration in web authentication.</p>
                         </div>
                     </a>
                 </div>
-                <div class="blogs">
+                <div class="repos">
                     <a href="https://github.com/bulutaysarac/Bulutay.AdvertisementApp" target="_blank">
                         <div class="img">
                             <img src="images/NTierArcAppThumb.png" alt="repository">
-                            <div class="blog-date">15 April 2023</div>
+                            <div class="repo-date">15 April 2023</div>
                         </div>
-                        <div class="blog-text">
+                        <div class="repo-text">
                             <h3>Advertisement App</h3>
                             <p>I've built a web application that showcases my expertise in N-Tier Layer architecture, utilizing .NET Core, JavaScript, jQuery, and MSSQL to highlight my skills in both frontend and backend development through a modular and scalable design.</p>
                         </div>
                     </a>
                 </div>
-                <div class="blogs">
+                <div class="repos">
                     <a href="https://github.com/bulutaysarac/CloudBlog-ASP.NET-Core" target="_blank">
                         <div class="img">
                             <img src="images/BlogAppThumb.jpg" alt="repository">
-                            <div class="blog-date">16 Mar 2021</div>
+                            <div class="repo-date">16 Mar 2021</div>
                         </div>
-                        <div class="blog-text">
+                        <div class="repo-text">
                             <h3>Internship Project</h3>
                             <p>During my internship, I successfully conceptualized, designed, and developed a dynamic blog website utilizing a range of cutting-edge technologies. Leveraging my skills in MSSQL, ASP.NET Core, .NET Framework Core, JavaScript, and jQuery.</p>
                         </div>
                     </a>
                 </div>
-                <div class="blogs">
+                <div class="repos">
                     <a href="https://github.com/bulutaysarac/Graduation-Project-LabControl" target="_blank">
                         <div class="img">
                             <img src="images/LabControlAppThumb.png" alt="repository">
-                            <div class="blog-date">22 Oct 2020</div>
+                            <div class="repo-date">22 Oct 2020</div>
                         </div>
-                        <div class="blog-text">
+                        <div class="repo-text">
                             <h3>Graduation Project</h3>
                             <p>For my graduation project, I created a WPF based Computer Lab Control App that utilizes socket programming to enable remote and efficient management of multiple networked computers, facilitating tasks like screen sharing, file upload, and system control. C# language used.</p>
                         </div>
                     </a>
                 </div>
             </div>
-            <!--copyright-section-->
+            <!--footer-section-->
             <div class="footer">
                 <div class="footer-text">
                     <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Bulutay Saraç
                 </div>
             </div>
-            <!--copyright-section-->
+            <!--footer-section-->
         </div>
-        <!--blog end-->
+        <!--repo end-->
         <!--portfolio-->
         <div id="portfolio">
-            <div class="portfolio-header"> <span class="color"> My </span> Experience
+            <div class="portfolio-header">
+                <span class="color"> My </span> Experience
             </div>
             <div id="portfolio-content">
                 <div class="portfolio portfolio-second">
@@ -390,7 +397,7 @@
                         <img src="images/UdemyThumb1.jpg" alt="portfolio-second">
                     </div>
                     <div class="portfolio-text">
-                        <h2>Udemy Course for Microservices</h2>
+                        <h2>Expanding Horizons: Exploring Microservices Through an Ongoing Udemy Course</h2>
                         <p>I am currently undergoing an immersive Udemy course on Microservices with .NET, where I am gaining valuable insights into microservice architecture and its real-world application. My learning encompasses key technologies including MongoDB, Redis, PostgreSQL, Docker, IdentityServer, and API Gateway. This hands-on experience is preparing me to proficiently design, develop, and deploy microservices-based applications. I am excited to continue my journey and apply these skills to future projects, contributing to the advancement of cutting-edge software solutions.</p>
                         <div class="button"><a href="https://www.udemy.com/course/net-ile-microservices/"><button><span class="index"> View Course<i class="gg-arrow-right"></i></span></button></a></div>
                     </div>
@@ -400,7 +407,7 @@
                         <img src="images/UdemyCert1.jpg" alt="experience">
                     </div>
                     <div class="portfolio-text">
-                        <h2>Udemy Course for .Net Core Web API</h2>
+                        <h2>Enhancing Skills: Mastering .Net Core Web API through Udemy Course</h2>
                         <p>I've completed a comprehensive Udemy course covering N-Tier and Onion Architectures, CQRS, JWT, Entity Framework Core, ASP.NET Core WebAPI, Identity, and SOLID Principles. I'm skilled in designing modular applications, optimizing data operations, ensuring secure authentication, and writing clean, maintainable code. My training equips me to create top-notch software solutions.</p>
                         <div class="button"><a href="https://www.udemy.com/course/asp-net-core-mvc-api-ogrenin-a-z/"><button><span class="index"> View Course<i class="gg-arrow-right"></i></span></button></a></div>
                     </div>
@@ -410,7 +417,7 @@
                         <img src="images/military.png" alt="portfolio-third">
                     </div>
                     <div class="portfolio-text">
-                        <h2>Military Service at Turkish Navy</h2>
+                        <h2>Service and Growth: My Experience in the Turkish Navy</h2>
                         <p>I served as a Sub-Lieutenant in the Turkish Armed Forces, where I held the role of an academic lecturer within the Computer Science department. This unique experience not only allowed me to impart valuable knowledge to future military professionals but also instilled in me the discipline and dedication that is fundamental to the armed forces. My role as an educator enabled me to contribute to the development of computer science expertise among military personnel, fostering a strong foundation in technology while upholding the principles of military discipline. This experience was a pivotal period that enriched my leadership skills, furthered my understanding of the importance of structured education, and provided a unique perspective on the intersection of technology and military operations.</p>
                     </div>
                 </div>
@@ -419,7 +426,7 @@
                         <img src="images/duzce.png" alt="portfolio-fourth">
                     </div>
                     <div class="portfolio-text">
-                        <h2>Bachelor's Degree at Düzce University</h2>
+                        <h2>Reaching New Heights: My Bachelor's Degree Journey at Düzce University</h2>
                         <p>I hold a degree in Computer Engineering from Düzce University, reflecting my passion for technology and innovation. Proficient in programming languages such as C#, Java, JavaScript, Python and experienced in SQL, ASP.Net, Android Programming, I bring a solid theoretical foundation and practical skills to the field. Collaborative, adaptable, and eager to contribute, I am poised to make a positive impact as I embark on my professional journey in computer engineering.</p>
                         <div class="button"><a href="https://duzce.edu.tr/"><button><span class="index"> Go to Website<iclass="gg-arrow-right"></i></span></button></a></div>
                     </div>
@@ -429,7 +436,7 @@
                         <img src="images/marmara.png" alt="portfolio-fourth">
                     </div>
                     <div class="portfolio-text">
-                        <h2>Associate Degree at Marmara University</h2>
+                        <h2>Further Education: Pursuing an Associate Degree at Marmara University</h2>
                         <p>I hold an Associate Degree in Computer Programming from Marmara University. Learned programming languages like C#, Java, JavaScript. With a collaborative mindset, I've engaged in group projects and coding challenges, refining my abilities. Eager to learn and contribute, I'm excited to embark on a software development career, building on the strong foundation laid during my associate degree.</p>
                         <div class="button"><a href="https://www.marmara.edu.tr/"><button><span class="index"> Go to Website<iclass="gg-arrow-right"></i></span></button></a></div>
                     </div>
@@ -439,19 +446,23 @@
                         <img src="images/profilo.png" alt="portfolio-fourth">
                     </div>
                     <div class="portfolio-text">
-                        <h2>First Step at Profilo Anatolian Technical High School</h2>
-                        <p>My programming journey took root at Profilo Anatolian Technical High School, where I was introduced to the fundamentals of coding. This initial exposure ignited my passion for technology and laid the groundwork for my ongoing educational and professional pursuits. Building on this early foundation, I am now poised to make a meaningful impact in the world of programming.</p>
-                        <div class="button"><a href="https://profiloatl.meb.k12.tr/"><button><span class="index"> Go to Website<iclass="gg-arrow-right"></i></span></button></a></div>
+                        <h2>Embarking on my Programming Journey: The Profilo Anatolian Technical High School Chapter</h2>
+                        <p>My programming journey had its beginnings at Profilo Anatolian Technical High School, where I was introduced to the fundamentals of coding. This initial exposure ignited my passion for technology and laid the groundwork for my subsequent educational and professional pursuits. Building upon this early foundation over the past seven years, this experience also prepared me for university life and enabled me to make meaningful impacts in the world of programming.</p>
+                        <div class="button">
+                            <a href="https://profiloatl.meb.k12.tr/">
+                                <button><span class="index"> Go to Website<iclass="gg-arrow-right"></i></span></button>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <!--copyright-section You Can Remove After Downloading-->
+            <!--footer-section-->
             <div class="footer">
                 <div class="footer-text">
                     <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Bulutay Saraç
                 </div>
             </div>
-            <!--copyright-section-->
+            <!--footer-section-->
         </div>
         <!--portfolio end-->
         <!--contact-->
@@ -474,7 +485,6 @@
                         <textarea id="body" class="input-textarea" placeholder="message"></textarea>
                         <button type="button" id="submit" value="send">Submit</button>
                     </form>
-
                 </div>
                 <!--Contact form-->
                 <!--Contact information-->
@@ -494,7 +504,7 @@
                             <img src="./images/icon-location.png" class="icon" alt="location-icon">
                             <div class="contact-info-icon-text">
                                 <h6>Location</h6>
-                                <p>İstanbul, Türkiye</p>
+                                <p>İstanbul (EU), Türkiye</p>
                             </div>
                         </div>
                         <div class="contect-info-content-line">
@@ -516,13 +526,13 @@
                     <!--Contact information end-->
                 </div>
             </div>
-            <!--copyright-section You Can Remove After Downloading-->
+            <!--footer-section-->
             <div class="footer">
                 <div class="footer-text">
                     <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Bulutay Saraç
                 </div>
             </div>
-            <!--copyright-section-->
+            <!--footer-section-->
         </div>
         <!--contact end-->
     </div>
