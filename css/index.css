@@ -8,6 +8,14 @@
     box-sizing: border-box;
 }
 
+.portfolio-logo {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
 ::-webkit-scrollbar {
     width: 4px;
     color: #c70039;
@@ -2258,6 +2266,7 @@ for tabs and large phones
         border: none;
         padding: 20px 30px;
         color: whitesmoke;
+        background: #c70039;
         outline: none;
         font-size: 20px;
         font-family: aileron;
@@ -2656,6 +2665,7 @@ for tabs and large phones
         border: none;
         padding: 25px 35px;
         color: whitesmoke;
+        background: #c70039;
         outline: none;
         font-size: 30px;
         font-family: aileron;
